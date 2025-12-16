@@ -1,0 +1,26 @@
+  /*//5° caso, o pai já ser uma palavra e a nova palavra ter prefixo no pai
+                   else if(/*Ainda não sei a condição/)
+                   {
+
+                       while((i < info.length() && i < pai.getInfo().length())
+                               && info.charAt(i) == pai.getInfo().charAt(i))
+                           i++;
+                       String ppai = "";
+                       String presto = "";
+                       String pinfo = "";
+                       int j = 0;
+                       while(j<i)//prefixo em comum ficar em pai
+                           ppai += info.charAt(j++);
+                       j = i;
+                       while(j<pai.getInfo().length())
+                           presto += pai.getInfo().charAt(j++);
+                       j = i;
+                       while(j<info.length())
+                           pinfo += info.charAt(j);
+
+                       pai.setFlag(false);
+                       pai.setInfo(ppai);
+
+                       pai.inserir(presto,true);
+                       pai.inserir(pinfo,true);
+                   }*/
